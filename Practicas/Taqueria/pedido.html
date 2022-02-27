@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taqueria</title>
+</head>
+
+<body>
+    <h1>Aqui se hace el pedido</h1>
+
+    <form action="pedido.js">
+        <label for="">Ingresa tu nombre: </label><br>
+        <input type="text" placeholder="nombre" name="nombre" id="nombre"><br><br>
+
+        <label for="">Ingresa numero de mesa (Está el número abajo): </label><br>
+        <input type="number" name="mesa" id="mesa" placeholder="4"><br>
+
+        <p>¿Para aquí o para llevar?</p>
+        <input type="radio" name="aquiollevar" id="aqui" value="Aqui">
+        <label for="roja">Aqui</label><br>
+        <input type="radio" name="aquiollevar" id="llevar" value="llevar">
+        <label for="roja">Llevar</label><br>
+
+        <p>¿Tacos de Qué?</p>
+        <input type="number" name="mercurioCuantos" id="mercurioCuantos">
+        <input type="checkbox" name="mercurio" id="mercurio" value="mercurio">
+        <label for="">Taco de Mercurio</label><br>
+        
+        <input type="number" name="venusCuantos" id="venusCuantos">
+        <input type="checkbox" name="venus" id="venus" value="venus">
+        <label for="">Taco de Venus</label><br>
+        
+        <input type="number" name="tierraCuantos" id="tierraCuantos">
+        <input type="checkbox" name="tierra" id="tierra" value="tierra">
+        <label for="">Taco Tierra</label><br>
+        
+        <input type="number" name="marteCuantos" id="marteCuantos">
+        <input type="checkbox" name="marte" id="marte" value="marte">
+        <label for="">Taco de Marte</label><br>
+        
+        <input type="number" name="jupiterCuantos" id="jupiterCuantos">
+        <input type="checkbox" name="jupiter" id="jupiter" value="jupiter">
+        <label for="">Taco de Jupiter</label><br>
+        
+        <input type="number" name="saturnoCuantos" id="saturnoCuantos">
+        <input type="checkbox" name="saturno" id="saturno" value="saturno">
+        <label for="">Taco de Saturno</label><br>
+        
+        <input type="number" name="uranoCuantos" id="uranoCuantos">
+        <input type="checkbox" name="urano" id="urano" value="urano">
+        <label for="">Taco de Urano</label><br>
+        
+        <input type="number" name="neptunoCuantos" id="neptunoCuantos">
+        <input type="checkbox" name="neptuno" id="neptuno" value="neptuno">
+        <label for="">Taco de Neptuno</label><br>
+        
+        <input type="number" name="plutonCuantos" id="plutonCuantos">
+        <input type="checkbox" name="pluton" id="pluton" value="pluton">
+        <label for="">Taco de Plutón</label><br>
+        
+
+        <p>¿Y para tomar?</p>
+        <select name="refresco" id="refresco">
+            <option value="Coca-Cola">Coca-Cola</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Manzana">Manzana</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Sangria">Sangria</option>
+            <option value="Mango">Mango</option>
+            <option value="Guayaba">Guyaba</option>
+        </select><br><br>
+
+
+        <input type="reset" value="Restablecer">
+        <input type="submit" value="Enviar">
+    </form><br>
+
+
+    <a href="menuTaqueria.html"><input type="button" value="Menú"></a>
+</body>
+
+</html>
