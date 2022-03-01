@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+        <header class="header">
+            <a href="index.html">
+                <img class="header__logo" src="img/Logo1.PNG" alt="Logotipo">
+            </a>
+        </header>
+
+        <nav class="navegacion">
+            <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+            <a class="navegacion__enlace" href="#pasteles">Pasteles</a>
+            <a class="navegacion__enlace" href="#sabores">Sabores Extra</a>
+            <a class="navegacion__enlace" href="#decoracion">Decoraciones</a>
+            <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+        </nav>
+
+        <form action="pedido.js">
+            <main class="contenedor">
+                <section class="pasteles" id="pasteles">
+                    <h1>Pasteles</h1>
+                    <div class="grid">
+                        <!---producto-->
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/fresa.jfif" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Fresa</p>
+                                    <p class="producto__precio">$25</p>
+                                    
+                                </div>
+                                <input type="radio" name="pastel" id="pastel" class="pastel">
+                        </div>
+                        <!---producto-->
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/chocolate.jpg" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Chocolate</p>
+                                    <p class="producto__precio">$25</p>
+                                </div>
+                                <input type="radio" name="pastel" id="pastel">
+                        </div>
+                        <!---producto-->
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/vainilla.jfif" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Vainilla</p>
+                                    <p class="producto__precio">$25</p>
+                                </div>
+                                <input type="radio" name="pastel" id="pastel">
+                        </div>
+                        <!---producto-->
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/napolitano.jfif" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Napolitano</p>
+                                    <p class="producto__precio">$25</p>
+                                </div>
+                                <input type="radio" name="pastel" id="pastel">
+                        </div>
+    
+                        <!---producto-->
+            </main>
+            </section>
+    
+            <main class="contenedor">
+                <section class="sabores" id="sabores">
+                    <h1>Sabores Extra</h1>
+                    <div class="grid">
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/mermelada.jpg" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Mermelada</p>
+                                    <p class="producto__precio">$2</p>
+                                </div>
+                                <input type="checkbox" name="sabor" id="sabor">
+                        </div>
+                        <!---producto-->
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/guayaba.jpg" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Guayaba</p>
+                                    <p class="producto__precio">$3</p>
+                                </div>
+                                <input type="checkbox" name="sabor" id="sabor">
+                        </div>
+                        <!---producto-->
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/limon.jpg" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Limon</p>
+                                    <p class="producto__precio">$5</p>
+                                </div>
+                                <input type="checkbox" name="sabor" id="sabor">
+                        </div>
+                        <!---producto-->
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/red.jfif" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Red Velvet</p>
+                                    <p class="producto__precio">$10</p>
+                                </div>
+                                <input type="checkbox" name="sabor" id="sabor">
+                        </div>
+                        <!---producto-->
+                    </div>
+                </section>
+            </main>
+    
+            <main class="contenedor">
+                <section class="decoracion" id="decoracion">
+                    <h1>Decoraciones</h1>
+                    <div class="grid">
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/fresas.jpg" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Fresas</p>
+                                    <p class="producto__precio">$2</p>
+                                </div>
+                                <input type="checkbox" name="dec" id="dec">
+                        </div>
+                        <!---producto-->
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/rosas.jpg" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Rosas</p>
+                                    <p class="producto__precio">$3</p>
+                                </div>
+                                <input type="checkbox" name="dec" id="dec">
+                        </div>
+                        <!---producto-->
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/frutas.jpg" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Fruta en almibar</p>
+                                    <p class="producto__precio">$5</p>
+                                </div>
+                                <input type="checkbox" name="dec" id="dec">
+                        </div>
+                        <!---producto-->
+                        <div class="producto">
+                                <img class="producto__imagen" src="img/fondant.jpg" alt="imagen camisa">
+                                <div class="producto__informacion">
+                                    <p class="producto__nombre">Fondant</p>
+                                    <p class="producto__precio">$10</p>
+                                </div>
+                                <input type="checkbox" name="dec" id="dec">
+                        </div>
+                        <!---producto-->
+                    </div>
+                </section>
+            </main>
+
+            <section>
+                <main class="contenedor">
+                    <h3 class="centrar-texto">Informacion de Cliente</h3>
+                    <div class="contacto-bg"></div>
+                    
+                    <form class="formulario">
+                        <div class="campo">
+                            <label class="campo__label" for="nombre">Nombre:</label>
+                            <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label class="campo__label" for="number">Telefono:</label>
+                            <input class="campo__field" type="number" placeholder="Tu Numero de Telefono" id="telefono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label class="campo__label" for="email">E-mail:</label>
+                            <input class="campo__field" type="email" placeholder="Tu E-mail" id="email">
+                        </div>
+            
+                        <div class="campo">
+                            <label class="campo__label" for="mensaje">Descripcion del Pastel:</label>
+                            <textarea class="campo__field campo__field--textarea" id="mensaje"></textarea>
+                        </div>
+            
+                        <div class="campo">
+                            <input type="submit"value="Enviar" class="boton boton--primario">
+                        </div>
+                    </form>
+                </main>
+            </section>
+        </form>
+
+
+
+    <footer class="footer">
+        <p class="footer__texto">Pasteleria Choco - Todos los derechos Reservados 2022</p>
+    </footer>
+</body>
+
+</html>
