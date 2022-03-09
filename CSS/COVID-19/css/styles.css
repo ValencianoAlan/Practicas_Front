@@ -59,13 +59,16 @@
     color: var(--texto_gris);
 }
 
-.menu2 .button{
+.button{
   font-family: var(--fuente_logo);
   background-color: var(--logo);
   border: 0;
-  padding: 15px 32px;
-  border-radius: 10px;
+  padding: 15px 25px;
+  border-radius: 5px;
   font-size: 15px;
   color: white;
   font-weight: bold;
+}
+.button:hover{
+  cursor:pointer;
 }
