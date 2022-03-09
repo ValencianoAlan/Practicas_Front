@@ -63,12 +63,10 @@
 .menu2 .button{
   font-family: var(--fuente_logo);
   background-color: var(--logo);
-  border: none;
+  border: 0;
   padding: 15px 32px;
   border-radius: 10px;
   font-size: 15px;
   color: white;
   font-weight: bold;
-  text-decoration: none;
-  display: inline-block;
 }
