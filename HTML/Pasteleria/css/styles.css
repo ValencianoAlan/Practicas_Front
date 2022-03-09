@@ -247,6 +247,15 @@ input[type='checkbox']{
     /* align-items: baseline; */
     gap: 20px;
 }
+
+@media (min-width: 768px){ 
+    .cont-table{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
 .table--title{
     grid-column-start: 1;
     grid-column-end: 5;
@@ -277,5 +286,5 @@ input[type='checkbox']{
     padding: auto;
     border-collapse: collapse;
     font-size: 1em;
-    display: flex;
 }
+
