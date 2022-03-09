@@ -1,0 +1,74 @@
+:root{
+  --logo: #2b4ac7;
+  --fuente_logo: 'Rubik', sans-serif;
+  --texto_gris: #707e95;
+  --fuente-gris:'Roboto', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+
+
+.cabecero{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  flex-direction: row;
+  height: 120px;
+  z-index: 1;
+}  
+
+.header{
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.text-logo{
+  font-family: var(--fuente_logo);
+  color: var(--logo);
+  font-size: 35px;
+}
+
+.logo{
+  flex-grow: 10;
+  font-weight: bold;
+}
+
+#menu{
+    height: 100%;
+    font-family: var(--fuente_logo);
+    font-size: 20px;
+    flex-grow: 2;
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    height: 100%;
+    margin-right: 10px;
+    align-content: center;
+}
+.menu2 a{
+    padding: 20px;
+    color: var(--texto_gris);
+}
+
+.menu2 .button{
+  font-family: var(--fuente_logo);
+  background-color: var(--logo);
+  border: none;
+  padding: 15px 32px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
