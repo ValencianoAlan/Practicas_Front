@@ -84,6 +84,8 @@ h3{
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
     font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 /*el hover sirve para cambiar de color al pasar el cursor*/
@@ -242,6 +244,8 @@ input[type='checkbox']{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 50px;
+    /* align-items: baseline; */
+    gap: 20px;
 }
 .table--title{
     grid-column-start: 1;
@@ -273,5 +277,5 @@ input[type='checkbox']{
     padding: auto;
     border-collapse: collapse;
     font-size: 1em;
-    
+    display: flex;
 }
