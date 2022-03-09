@@ -57,6 +57,7 @@
 .menu2 a{
     padding: 20px;
     color: var(--texto_gris);
+    margin: 10px;
 }
 
 .button{
@@ -68,6 +69,7 @@
   font-size: 15px;
   color: white;
   font-weight: bold;
+  margin-left: 100px;
 }
 .button:hover{
   cursor:pointer;
