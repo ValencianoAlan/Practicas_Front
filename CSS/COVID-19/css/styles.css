@@ -3,6 +3,7 @@
   --fuente_logo: 'Rubik', sans-serif;
   --texto_gris: #707e95;
   --fuente-gris:'Roboto', sans-serif;
+  --azul-fuerte: #1f3e72;
 }
 
 * {
@@ -12,8 +13,12 @@
     text-decoration: none;
   }
   
+.blue{
+  color:var(--logo);
+  font-weight: bolder;
+}
 
-
+/* nav-bar */
 .cabecero{
   display: flex;
   position: fixed;
@@ -33,6 +38,21 @@
   font-family: var(--fuente_logo);
   color: var(--logo);
   font-size: 35px;
+  font-weight: bolder;
+}
+
+.text-logo2{
+  font-family: var(--fuente_logo);
+  color: var(--azul-fuerte);
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.text-big{
+  color: #707e95;
+  font-size: 23px;
+  line-height: 30px;
+  font-family: var(--fuente-gris);
 }
 
 .logo{
@@ -73,4 +93,104 @@
 }
 .button:hover{
   cursor:pointer;
+}
+
+/* contenedor */
+.contenedor{
+  display: flex;
+  flex-direction: row;
+}
+
+.home-image{
+  height: 700px;
+  width: 50%;
+}
+
+#presentacion{
+  position: absolute;
+  top: 20%;
+  left: 9%;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-family: var(--fuente-gris);
+  color: var(--azul-fuerte);
+}
+/* card */
+.rectangle-box{
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  position: absolute;
+  margin-top: 400px;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 130px;
+  width: 900px;
+  top: 100%;
+}
+
+table{
+  display: flex;
+  flex-direction: row;
+  width: 81%;
+}
+
+tr{
+  align-items: center;
+}
+
+th {
+  display: inline-flex;
+  padding: 20px 92px 17px 15px;
+}
+
+td {
+  display: inline-flex;
+  padding: 0px 84px 20px 57px;
+  align-items: center;
+}
+
+.img1{
+  font-family: var(--fuente-gris);
+  color:var(--texto_gris);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-button {
+  order: 2;
+  width: 20%;
+  margin-top: 12px;
+}
+
+.rectangle-button {
+  font-family: "Roboto", sans-serif;
+  background-color: #2b4ac7;
+  border: 0;
+  margin: 9% 0% 0% 9%;
+  padding: 15px 40px;
+  border-radius: 5px;
+  color: white;
+}
+
+.icon-container-down{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  padding: 500px 0 0 200px;
+}
+
+.icon-container-down i{
+  padding-right: 20px;
+}
+
+.text-info-table {
+  color: var(--texto_gris);
+  font-size: 16px;
+  font-family: var(--fuente-gris);
+  padding-left: 20;
 }
