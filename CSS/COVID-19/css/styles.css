@@ -18,6 +18,9 @@
   font-weight: bolder;
 }
 
+.margin{
+  margin: 40px 100px;
+}
 /* nav-bar */
 .cabecero{
   display: flex;
@@ -193,4 +196,16 @@ td {
   font-size: 16px;
   font-family: var(--fuente-gris);
   padding-left: 20;
+}
+
+/* imagenes-vacunas */
+.vacunas{
+  display: flex;
+  justify-content: space-around;
+}
+
+.vacunas-img{
+  height: 100px;
+  width: 300px;
+  margin-right: 50px;
 }
