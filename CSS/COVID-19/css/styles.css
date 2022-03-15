@@ -381,3 +381,47 @@ td {
 .svg-text {
   padding-left: 3%;
 }
+
+/* footer */
+.margin-t{
+  margin-top: 20px;
+}
+footer {
+  background-color: #eef3ff;
+  display: flex;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.footer-brand-terms {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.terms {
+  display: flex;
+  height: 50%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.text-grey{
+  font-family: var(--fuente-gris);
+  color: var(--texto_gris);
+}
